@@ -1,0 +1,35 @@
+{
+  "name": "single-spa-stream",
+  "version": "1.0.0",
+  "description": "single-spa loadApp function global store copy https://github.com/me-12/single-spa-portal-example",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "yarn clean && rollup -c",
+    "clean": "rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minran/single-spa-stream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minran/single-spa-stream/issues"
+  },
+  "homepage": "https://github.com/minran/single-spa-stream#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/runtime": "^7.7.7",
+    "core-js": "3",
+    "global": "^4.4.0",
+    "rollup": "^1.27.14",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "single-spa": "^4.4.2",
+    "systemjs": "^6.1.7"
+  }
+}
